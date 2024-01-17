@@ -1,0 +1,351 @@
+.main-screen__title {
+  font-size: clamp(12px, 5vw, 96px);
+}
+
+.main-screen {
+  background-size: min(70%, 809px);
+}
+
+.device__image {
+  width: min(400px, 28vw);
+}
+
+.device__title, .device__title-opinion {
+  font-size: clamp(16px, 2.8vw, 32px);
+}
+
+@media (max-height:400px) {
+  .fixed {
+    display: none;
+  }
+}
+
+@media (max-width:475px) {
+  .fixed {
+    display: none;
+  }
+}
+
+@media (max-width:1300px) {
+  .container {
+    width: 1000px;
+  }
+  .splide__arrow {
+    display: none;
+  }
+  .specifications{
+    height: 400px;
+  }
+
+  .device__left-part {
+    margin-right: 20px;
+  }
+
+  .device__title, .device__title-opinion{
+    font-size: clamp(20px, 2.5vw, 28px)
+  }
+
+  .device__title-opinion {
+    margin-bottom: 30px;
+  }
+
+  .device__description-opinion, .specifications p{
+    width: 550px;
+    font-size: clamp(12px, 1.7vw, 18px);
+  }
+
+  .device__button, .back-device__button {
+    font-size: clamp(12px, 1.7vw, 18px);
+  }
+
+  .device {
+    height: 500px;
+  }
+
+  .splide__slide {
+    padding: 25px;
+  }
+}
+
+@media (max-width:1024px) {
+  .container {
+    width: 768px;
+  }
+
+  .device__right-part {
+    height: calc(272px + 105px);
+  }
+  .main-screen__title {
+    font-size: clamp(12px, 4.5vw, 96px);
+  }
+
+  .device {
+    height: 375px;
+  }
+
+  .device__title, .device__title-opinion {
+    font-size: clamp(18px, 1.9vw, 28px);
+  }
+
+  .device__description-opinion, .specifications p {
+    width: 425px;
+    font-size: clamp(12px, 1.4vw, 16px);
+  }
+
+  .device__button, .back-device__button {
+    padding: 4px 12px;
+    font-size: clamp(12px, 1.9vw, 16px);
+  }
+
+  .header-line__logo img {
+    width: 30px;
+  }
+
+  .header-line__logo span {
+    font-size: 30px;
+  }
+
+  .header-line__switch-themes {
+    width: 70px;
+    height: 30px;
+  }
+
+  .header-line__switch-themes__indicator {
+    width: 25px;
+    height: 25px;
+  }
+
+  .lightmode .header-line__switch-themes__indicator {
+    transform: translateX(35px);
+  }
+
+  .logo-link__svg {
+    width: 30px;
+  }
+
+  .header-line {
+    height: 60px;
+  }
+
+  .header__nav-list {
+    gap: 25px;
+    height: 45px;
+  }
+
+  .header__nav-list>* {
+    font-size: 14px;
+  }
+
+  .copyright {
+    font-size: 12px;
+  }
+
+  .section {
+    margin-bottom: 50px;
+  }
+
+  .footer {
+    margin-top: 50px;
+  }
+
+  .main-screen {
+    height: 400px;
+  }
+}
+
+@media (max-width:1000px) {
+  .device__title {
+    margin-bottom: 20px;
+  }
+}
+
+@media (max-width:900px) {
+  .container {
+    width: 650px;
+  }
+  .device__right-part {
+    height: calc(272px + 45px);
+  }
+  .device{
+    height: 350px;
+  }
+
+  .device__description-opinion, .specifications p {
+    width: 365px;
+    font-size: clamp(10px, 1.3vw, 16px);
+  }
+
+  .device__image {
+    width: min(400px, 22vw);
+  }
+
+  .device__button, .back-device__button {
+    padding: 4px 10px;
+    font-size: clamp(10px, 1.3vw, 16px);
+  }
+
+  .splide {
+    padding: 25px;
+  }
+}
+
+@media (max-width:768px) {
+  .container {
+    width: 475px;
+  }
+
+  .splide__pagination__page {
+    height: 5px;
+    width: 5px;
+  }
+
+  .main-screen {
+    height: 400px;
+  }
+
+  .device {
+    justify-content: start;
+    flex-direction: column;
+    align-items: start;
+    height: 500px;
+  }
+
+  .device:first-child {
+    align-items: center;
+  }
+
+  .device__title {
+    font-size: min(22px, 4.8vw);
+    margin-bottom: 10px;
+  }
+
+  .device__left-part {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0;
+    margin-bottom: 10px;
+  }
+
+  .device__right-part {
+    height: calc(210px + 50px);
+  }
+
+  .device__image {
+    width: min(180px, 45vw);
+  }
+
+  .device__title-opinion {
+    display: none;
+  }
+
+  .device__description-opinion {
+    width: 100%;
+    font-size: clamp(12px, 1.2vw, 16px);
+  }
+
+  .device__button {
+    font-size: clamp(12px, 1.2vw, 16px);
+  }
+
+  .footer {
+    height: 50px;
+    margin-top: 50px;
+  }
+
+  .header-line {
+    height: 40px;
+  }
+
+  .header-line__logo img {
+    width: 20px;
+  }
+
+  .header-line__logo span {
+    font-size: 20px;
+  }
+
+  .header-line__switch-themes {
+    width: 50px;
+    height: 20px;
+  }
+
+  .header-line__switch-themes__indicator {
+    width: 15px;
+    height: 15px;
+  }
+
+  .header-line__switch-themes__icon {
+    font-size: 8px;
+  }
+
+  .lightmode .header-line__switch-themes__indicator {
+    transform: translateX(25px);
+  }
+
+  .logo-link__svg {
+    width: 20px;
+  }
+
+  .header-line__icon-links {
+    gap: 15px;
+  }
+
+  .header__nav-list {
+    gap: 10px;
+    height: 35px;
+  }
+
+  .header__nav-list>* {
+    font-size: 10px;
+  }
+
+  .section {
+    margin: 0;
+  }
+
+  .splide {
+    padding: 0;
+  }
+}
+
+@media (max-width:475px) {
+  .container {
+    width: 400px;
+  }
+
+  .header-line__logo span {
+    display: none;
+  }
+
+  .device {
+    height: 550px;
+  }
+
+  .device__right-part {
+    height: calc(255px + 50px);
+  }
+
+  .footer {
+    height: 25px;
+  }
+
+  .copyright {
+    font-size: 7px;
+  }
+  .main-screen {
+    height: 400px;
+  }
+}
+
+@media (max-width:400px) {
+  .container {
+    width: 350px;
+  }
+
+  .device__description-opinion {
+    font-size: clamp(11px, 1.2vw, 16px);
+  }
+}

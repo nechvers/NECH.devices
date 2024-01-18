@@ -30,10 +30,15 @@
   .container {
     width: 1000px;
   }
+  .specifications .specification__wrapper p{
+    width: 950px;
+  }
+
   .splide__arrow {
     display: none;
   }
-  .specifications{
+
+  .specifications {
     height: 400px;
   }
 
@@ -41,7 +46,7 @@
     margin-right: 20px;
   }
 
-  .device__title, .device__title-opinion{
+  .device__title, .device__title-opinion {
     font-size: clamp(20px, 2.5vw, 28px)
   }
 
@@ -49,7 +54,7 @@
     margin-bottom: 30px;
   }
 
-  .device__description-opinion, .specifications p{
+  .device__description-opinion, .specifications p {
     width: 550px;
     font-size: clamp(12px, 1.7vw, 18px);
   }
@@ -71,10 +76,14 @@
   .container {
     width: 768px;
   }
+  .specifications .specification__wrapper p{
+    width: 718px;
+  }
 
   .device__right-part {
     height: calc(272px + 105px);
   }
+
   .main-screen__title {
     font-size: clamp(12px, 4.5vw, 96px);
   }
@@ -163,10 +172,15 @@
   .container {
     width: 650px;
   }
+  .specifications .specification__wrapper p{
+    width: 600px;
+  }
+
   .device__right-part {
     height: calc(272px + 45px);
   }
-  .device{
+
+  .device {
     height: 350px;
   }
 
@@ -192,6 +206,9 @@
 @media (max-width:768px) {
   .container {
     width: 475px;
+  }
+  .specifications .specification__wrapper p{
+    width: 425px;
   }
 
   .splide__pagination__page {
@@ -315,6 +332,12 @@
   .container {
     width: 400px;
   }
+  .specifications .specification__wrapper p{
+    width: 350px;
+  }
+  .splide__slide {
+    padding: 0;
+  }
 
   .header-line__logo span {
     display: none;
@@ -335,6 +358,7 @@
   .copyright {
     font-size: 7px;
   }
+
   .main-screen {
     height: 400px;
   }
@@ -343,6 +367,9 @@
 @media (max-width:400px) {
   .container {
     width: 350px;
+  }
+  .specifications .specification__wrapper p{
+    width: 300px;
   }
 
   .device__description-opinion {

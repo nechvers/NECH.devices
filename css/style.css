@@ -303,16 +303,25 @@ body.lightmode .logo-link path {
 }
 
 .specifications {
+  position: relative;
   padding: 25px;
   height: 550px;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
   border-radius: 50px;
   font-size: 24px;
   font-weight: 300;
   background-color: rgba(255, 255, 255, 0.08);
   backdrop-filter: blur(20px);
+}
+.specification__wrapper{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 85%;
+}
+.specifications .specification__wrapper p{
+  display: flex;
+  flex-wrap: wrap;
+  width: 1150px;
 }
 .back-device__button{
   position: absolute;

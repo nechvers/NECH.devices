@@ -1,0 +1,397 @@
+@media (max-width: 1820px) {}
+
+@media (max-height: 800px) or (max-width: 1720px) {
+  .header-content {
+    margin-top: 50px;
+    height: 400px;
+  }
+
+  .header-content .title {
+    font-size: 64px;
+  }
+
+  .header-content .description {
+    font-size: 32px;
+  }
+
+  .btn-link {
+    font-size: 20px;
+    padding: 19px 32px;
+  }
+
+  .descripton-about-luceum {
+    font-size: 40px;
+    max-width: 1300px;
+  }
+
+  .header_article {
+    font-size: 64px;
+  }
+
+  .place-img {
+    height: 600px;
+    width: 600px;
+  }
+
+  .description_item-content {
+    width: 620px;
+    font-size: 32px;
+  }
+
+  .header_item-content {
+    font-size: 52px;
+  }
+
+  .description_first-item {
+    font-size: 32px;
+    margin-bottom: 100px;
+  }
+
+  .header-departments {
+    font-size: 28px;
+    margin-bottom: 30px;
+  }
+
+  .departments p, .departments li {
+    font-size: 22px;
+  }
+
+  .departments {
+    margin-bottom: 40px;
+  }
+
+  .program-item-second {
+    width: 800px;
+  }
+
+  .header_right-subjects {
+    font-size: 32px;
+  }
+
+  .card-img {
+    width: 100px;
+    height: 100px;
+  }
+
+  .card-img img {
+    height: 50px;
+    width: 50px;
+    top: calc(50% - 25px);
+    left: calc(50% - 25px);
+  }
+
+  .subjects-name {
+    font-size: 20px;
+  }
+
+  .cards {
+    gap: 110px;
+  }
+
+  .button {
+    width: 350px;
+    height: 350px;
+  }
+
+  .img {
+    width: 350px;
+    height: 350px;
+  }
+
+  #slider1:target~.imgContainer #img1, #slider1:target~.imgContainer #button1 {
+    width: 500px;
+    height: 500px;
+  }
+
+  #slider2:target~.imgContainer #img2, #slider2:target~.imgContainer #button2 {
+    width: 500px;
+    height: 500px;
+  }
+
+  #slider3:target~.imgContainer #img3, #slider3:target~.imgContainer #button3 {
+    width: 500px;
+    height: 500px;
+  }
+
+  .main-events__slider-container {
+    width: 1200px;
+    height: 600px
+  }
+
+  .main-events__image-content h3 {
+    font-size: 48px;
+  }
+
+  .main-events__image-content p {
+    font-size: 24px;
+  }
+
+  .main-events__overlay {
+    width: 500px;
+  }
+
+  .main-events__card-image {
+    width: 350px;
+    height: 350px;
+  }
+
+  .main-events__image-content {
+    height: 90%;
+  }
+}
+
+@media (max-width: 1670px) {
+  .place-img {
+    margin-right: 300px;
+  }
+}
+
+@media (max-width: 1620px) {
+  .place-img {
+    margin-right: 200px;
+  }
+
+  .footer-container {
+    padding: 0 200px;
+  }
+
+  .program-item-first {
+    width: 560px;
+  }
+
+  .program-item-second {
+    width: 700px;
+  }
+
+  .cards {
+    gap: 75px;
+  }
+
+}
+
+@media (max-width: 1520px) {
+  .sidebar__nav-item_link{
+    font-size: 24px;
+    padding: calc(calc(100vh - calc(24px * 6)) / 12) 0 calc(calc(100vh - calc(24px * 6)) / 12) 25px;
+  }
+  .footer-container {
+    padding: 0 100px;
+  }
+
+  .description_item-content {
+    width: 560px;
+    font-size: 30px;
+  }
+
+  .program-item-second {
+    width: 600px;
+  }
+
+  .cards {
+    gap: 45px;
+  }
+
+  .not-boring_description {
+    font-size: 24px;
+  }
+
+  .header_article {
+    font-size: 52px;
+  }
+
+  .main-events__image-content {
+    justify-content: space-evenly;
+  }
+
+  .main-events__slider-container {
+    width: 1000px;
+    height: 500px;
+  }
+
+  .main-events__image-content h3 {
+    font-size: 40px;
+  }
+
+  .main-events__image-content p {
+    font-size: 20px;
+  }
+
+  .main-events .header_article {
+    margin-bottom: 160px;
+  }
+
+  .main-events__image-content {
+    height: 70%;
+  }
+
+  .descripton-about-luceum {
+    font-size: 36px;
+    max-width: 1100px;
+  }
+}
+
+@media (max-width: 1420px) {
+  .container {
+    margin: 0 10px;
+  }
+
+  .place-img {
+    margin-right: 150px;
+    width: 500px;
+    height: 500px;
+  }
+
+  .logo {
+    font-size: 28px;
+  }
+}
+
+@media (max-width: 1250px) {
+  .place-img {
+    margin-right: 100px;
+    width: 500px;
+    height: 500px;
+  }
+
+  .footer-container {
+    padding: 0 50px;
+  }
+
+  .program-item-first {
+    width: 520px;
+  }
+
+  .button {
+    width: 300px;
+    height: 300px;
+  }
+
+  .img {
+    width: 300px;
+    height: 300px;
+  }
+
+  #slider1:target~.imgContainer #img1, #slider1:target~.imgContainer #button1 {
+    width: 400px;
+    height: 400px;
+  }
+
+  #slider2:target~.imgContainer #img2, #slider2:target~.imgContainer #button2 {
+    width: 400px;
+    height: 400px;
+  }
+
+  #slider3:target~.imgContainer #img3, #slider3:target~.imgContainer #button3 {
+    width: 400px;
+    height: 400px;
+  }
+
+  .imgContainer {
+    height: 500px;
+  }
+
+  .description_first-item {
+    font-size: 30px;
+  }
+
+  .departments p, .departments li {
+    font-size: 18px;
+  }
+
+  .header_right-subjects {
+    font-size: 24px;
+  }
+
+  .card-img {
+    width: 75px;
+    height: 75px;
+  }
+
+  .card-img img {
+    height: 40px;
+    width: 40px;
+    top: calc(50% - 20px);
+    left: calc(50% - 20px);
+  }
+
+  .subjects-name {
+    font-size: 16px;
+  }
+
+  .program .header_article {
+    margin-bottom: 120px;
+  }
+}
+
+@media (max-width: 1200px) {
+  .description_item-content {
+    width: 500px;
+    font-size: 26px;
+  }
+  .program-items {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .to-place span {
+    font-size: 24px;
+  }
+
+  .header_item-content {
+    font-size: 36px;
+  }
+
+  .place-img {
+    margin-right: 100px;
+    width: 400px;
+    height: 400px;
+  }
+
+  .description_first-item {
+    width: 900px;
+    font-size: 24px;
+    margin-bottom: 40px;
+  }
+  .program-item-second {
+    width: 900px;
+    align-items: center;
+  }
+
+  .departments p, .departments li {
+    font-size: 18px;
+  }
+
+  .departments {
+    width: 900px;
+    margin-bottom: 40px;
+    padding: 40px;
+  }
+
+  .header-departments {
+    font-size: 24px;
+    margin-bottom: 30px;
+  }
+
+  .program .header_article {
+    margin-bottom: 60px;
+  }
+
+  .cards {
+    gap: 75px;
+  }
+
+  .btn_program-item {
+    display: none;
+  }
+  .right-subjects {
+    align-items: center;
+  }
+  .program-item-first {
+    width: 900px;
+  }
+  .descripton-about-luceum {
+    font-size: 30px;
+    max-width: 900px;
+  }
+}
